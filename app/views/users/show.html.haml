@@ -6,6 +6,10 @@
   %b Email:
   = @user.email
 
+%p
+  %b Phone Number:
+  = @user.phone_number
+
 = link_to 'Edit', edit_user_path(@user)
 |
 = link_to 'Back', users_path

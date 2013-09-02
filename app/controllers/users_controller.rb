@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  before_filter :auth_user, only: :edit
+
   def index
     @users = User.all
 

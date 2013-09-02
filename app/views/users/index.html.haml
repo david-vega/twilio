@@ -3,6 +3,7 @@
   %tr
     %th Nickname
     %th Email
+    %th Phone Number
     %th
     %th
     %th
@@ -10,6 +11,7 @@
     %tr
       %td= user.nickname
       %td= user.email
+      %td= user.phone_number
       %td= link_to 'Show', user
       %td= link_to 'Edit', edit_user_path(user)
       %td= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' }
