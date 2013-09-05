@@ -1,6 +1,6 @@
 == TwilioApp
 
-This is a twilio web application
+This is a twilio web application to demostrate a 2 step sms verification
 
 Fell free to use it as you wish
 
